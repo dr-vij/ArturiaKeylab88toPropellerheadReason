@@ -1,0 +1,14 @@
+version={0,0,1}
+
+function remote_supported_control_surfaces()
+	local surfaces =
+		{
+			{ manufacturer="ACME", model="In Control",
+				source="InControl.lua", picture="InControl.png",
+				in_ports={ {description="In Port"} },
+				out_ports={{description="Out Port", optional=true}},
+				has_keyboard=true
+			},
+		}
+	return surfaces
+end
