@@ -5,7 +5,7 @@ function remote_supported_control_surfaces()
 		{
 			{ 
 				manufacturer="Arturia", model="Keylab88",
-				source="test.lua", picture="test.png", 
+				source="Keylab88DrViJ.lua", picture="Keylab88DrViJ.png", 
 				in_ports={{description="In Port"}}, out_ports={{description="Out Port", optional=true}},
 				has_keyboard=true, 
 				setup_info_text="Hello world",
