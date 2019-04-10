@@ -60,6 +60,30 @@ function remote_init()
 		{name="Sustain2_2", 	input="value", min=0, max=127},
 		{name="Release2_2", 	input="value", min=0, max=127},
 		{name="Fader9_2", 		input="value", min=0, max=127},
+		
+		--Snapshot buttons (short press): 
+		{name="Snap1_Short", input="button"},
+		{name="Snap2_Short", input="button"},
+		{name="Snap3_Short", input="button"},
+		{name="Snap4_Short", input="button"},
+		{name="Snap5_Short", input="button"},
+		{name="Snap6_Short", input="button"},
+		{name="Snap7_Short", input="button"},
+		{name="Snap8_Short", input="button"},
+		{name="Snap9_Short", input="button"},
+		{name="Snap10_Short", input="button"},
+		
+		--Snapshot buttons (long press): 
+		{name="Snap1_Long", 	input="button"},
+		{name="Snap2_Long", 	input="button"},
+		{name="Snap3_Long", 	input="button"},
+		{name="Snap4_Long", 	input="button"},
+		{name="Snap5_Long", 	input="button"},
+		{name="Snap6_Long", 	input="button"},
+		{name="Snap7_Long", 	input="button"},
+		{name="Snap8_Long", 	input="button"},
+		{name="Snap9_Long", 	input="button"},
+		{name="Snap10_Long", 	input="button"},
 	}
 	remote.define_items(items)
 	
@@ -101,29 +125,54 @@ function remote_init()
 		
 		--Faders:
 		--Bank_1:
-		{pattern="b0 49 xx", name="Atack1_1"},
-		{pattern="b0 4B xx", name="Decay1_1"},
-		{pattern="b0 4F xx", name="Sustain1_1"},
-		{pattern="b0 48 xx", name="Release1_1"},
+		{pattern="B0 49 xx", name="Atack1_1"},
+		{pattern="B0 4B xx", name="Decay1_1"},
+		{pattern="B0 4F xx", name="Sustain1_1"},
+		{pattern="B0 48 xx", name="Release1_1"},
 
-		{pattern="b0 50 xx", name="Atack2_1"},
-		{pattern="b0 51 xx", name="Decay2_1"},
-		{pattern="b0 52 xx", name="Sustain2_1"},
-		{pattern="b0 53 xx", name="Release2_1"},
-		{pattern="b0 55 xx", name="Fader9_1"},
+		{pattern="B0 50 xx", name="Atack2_1"},
+		{pattern="B0 51 xx", name="Decay2_1"},
+		{pattern="B0 52 xx", name="Sustain2_1"},
+		{pattern="B0 53 xx", name="Release2_1"},
+		{pattern="B0 55 xx", name="Fader9_1"},
 		
 		--Faders:
 		--Bank_2
-		{pattern="b0 43 xx", name="Atack1_2"},
-		{pattern="b0 44 xx", name="Decay1_2"},
-		{pattern="b0 45 xx", name="Sustain1_2"},
-		{pattern="b0 46 xx", name="Release1_2"},
+		{pattern="B0 43 xx", name="Atack1_2"},
+		{pattern="B0 44 xx", name="Decay1_2"},
+		{pattern="B0 45 xx", name="Sustain1_2"},
+		{pattern="B0 46 xx", name="Release1_2"},
 
-		{pattern="b0 57 xx", name="Atack2_2"},
-		{pattern="b0 58 xx", name="Decay2_2"},
-		{pattern="b0 59 xx", name="Sustain2_2"},
-		{pattern="b0 5A xx", name="Release2_2"},
-		{pattern="b0 5C xx", name="Fader9_2"},
+		{pattern="B0 57 xx", name="Atack2_2"},
+		{pattern="B0 58 xx", name="Decay2_2"},
+		{pattern="B0 59 xx", name="Sustain2_2"},
+		{pattern="B0 5A xx", name="Release2_2"},
+		{pattern="B0 5C xx", name="Fader9_2"},		
+		
+		--Snapshot buttons (short press)
+		{pattern="B0 16 7F", name="Snap1_Short", 	value="1"},
+		{pattern="B0 17 7F", name="Snap2_Short", 	value="1"},
+		{pattern="B0 18 7F", name="Snap3_Short", 	value="1"},
+		{pattern="B0 19 7F", name="Snap4_Short", 	value="1"},
+		{pattern="B0 1A 7F", name="Snap5_Short", 	value="1"},
+		{pattern="B0 1B 7F", name="Snap6_Short", 	value="1"},
+		{pattern="B0 1C 7F", name="Snap7_Short", 	value="1"},
+		{pattern="B0 1D 7F", name="Snap8_Short", 	value="1"},
+		{pattern="B0 1E 7F", name="Snap9_Short", 	value="1"},
+		{pattern="B0 1F 7F", name="Snap10_Short", value="1"},
+		
+		--Snapshot buttons (long press)
+		{pattern="B0 68 7F", name="Snap1_Long", 	value="1"},
+		{pattern="B0 69 7F", name="Snap2_Long", 	value="1"},
+		{pattern="B0 6A 7F", name="Snap3_Long", 	value="1"},
+		{pattern="B0 6B 7F", name="Snap4_Long", 	value="1"},
+		{pattern="B0 6C 7F", name="Snap5_Long", 	value="1"},
+		{pattern="B0 6D 7F", name="Snap6_Long", 	value="1"},
+		{pattern="B0 6E 7F", name="Snap7_Long", 	value="1"},
+		{pattern="B0 6F 7F", name="Snap8_Long", 	value="1"},
+		{pattern="B0 74 7F", name="Snap9_Long", 	value="1"},
+		{pattern="B0 75 7F", name="Snap10_Long", 	value="1"},
+		
 		
 	}
 	remote.define_auto_inputs(inputs)
