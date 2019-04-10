@@ -1,6 +1,23 @@
 function remote_init()
 	local items=
 	{
+		{name="Keyboard", input="keyboard"},
+		
+		--Pedals and modulators
+		{name="PitchBend", 			input="value", 		min=0, max=16384},
+		{name="ModWheel", 			input="value", 		min=0, max=127},
+		{name="Expression", 		input="value", 		min=0, max=127},
+		{name="Breath", 			input="value", 		min=0, max=127},
+		{name="ChannelPressure", 	input="value", 		min=0, max=127},
+		{name="DamperPedal", 		input="value", 		min=0, max=127},
+	
+		--Extra knobs
+		{name="Volume", 		input="value", min=0, max=127},
+		{name="Category", 		input="delta"},
+		{name="Preset", 		input="delta"},
+		{name="SwitchPress", 	input="button"},
+		{name="CategoryPress", 	input="button"},
+	
 		--Transport buttons
 		{name="Rewind", 		input="button"},
 		{name="FastForward", 	input="button"},
@@ -89,6 +106,28 @@ function remote_init()
 	
 	local inputs=
 	{
+		--Keys:
+		--bit-wize patterns for keys and pads. <100x> = 9 if 1001 and 8 if 1000
+		{pattern="8z xx yy", 		name="Keyboard", value="0", note="x", velocity="64"},	
+		{pattern="9z xx 00", 		name="Keyboard", value="0", note="x", velocity="64"},
+		{pattern="<100x>0 yy zz", 	name="Keyboard"},
+		{pattern="<100x>9 yy zz", 	name="Keyboard"},
+
+		--Pedals and modulators:
+		{pattern="E? xx yy", 	name="PitchBend", value="y*128 + x"},
+		{pattern="B0 01 xx", 	name="ModWheel"},
+		{pattern="B0 0B xx", 	name="Expression"},
+		{pattern="B0 02 xx", 	name="Breath"},
+		{pattern="B0 40 xx", 	name="DamperPedal"},
+		{pattern="D0 xx", 		name="ChannelPressure"},	
+
+		--Extra knobs:
+		{pattern="B0 07 xx", 	name="Volume"},
+		{pattern="B0 70 xx", 	name="Category", value="(64 - x) * -1"},	
+		{pattern="B0 72 xx", 	name="Preset", value="(64 - x) * -1"},
+		{pattern="B0 73 xx", 	name="SwitchPress", value="1"},
+		{pattern="B0 71 xx", 	name="CategoryPress", value="1"},
+		
 		--Transport buttons
 		{pattern="F0 7F 7F 06 05 F7", 	name="Rewind", 		value="1"},
 		{pattern="F0 7F 7F 06 04 F7", 	name="FastForward", value="1"},
@@ -159,7 +198,7 @@ function remote_init()
 		{pattern="B0 1C 7F", name="Snap7_Short", 	value="1"},
 		{pattern="B0 1D 7F", name="Snap8_Short", 	value="1"},
 		{pattern="B0 1E 7F", name="Snap9_Short", 	value="1"},
-		{pattern="B0 1F 7F", name="Snap10_Short", value="1"},
+		{pattern="B0 1F 7F", name="Snap10_Short", 	value="1"},
 		
 		--Snapshot buttons (long press)
 		{pattern="B0 68 7F", name="Snap1_Long", 	value="1"},
@@ -172,8 +211,6 @@ function remote_init()
 		{pattern="B0 6F 7F", name="Snap8_Long", 	value="1"},
 		{pattern="B0 74 7F", name="Snap9_Long", 	value="1"},
 		{pattern="B0 75 7F", name="Snap10_Long", 	value="1"},
-		
-		
 	}
 	remote.define_auto_inputs(inputs)
 end
