@@ -1,0 +1,723 @@
+Propellerhead Remote Mapping File						
+File Format Version	1.0.0					
+Control Surface Manufacturer	Arturia					
+Control Surface Model	KEYLAB88					
+Map Version	0.0.1					
+						
+//This is a remote map template for the Arturia KEYLAB61 Keyboard and Reason 6.5						
+						
+						
+Scope	Propellerheads	Reason Document				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Stop		Stop			
+Map	Play		Play			
+Map	Record		Record			
+Map	Rewind		Rewind			
+Map	FastForward		Fast Forward			
+Map	Loop		Loop On/Off			
+						
+Map	PresetPress		Select Next Patch for Target Device			
+Map	CategoryPress		Target Previous Track			
+						
+Map	Category		Target Track (Delta)			
+Map	Preset		Select Patch for Target Device (Delta)			
+						
+						
+Map	Snap1_Short		Undo			
+Map	Snap2_Short		Redo			
+Map	Snap3_Short		Target Track Solo			
+Map	Snap4_Short		Target Track Mute			
+Map	Snap5_Short		New Overdub			
+Map	Snap6_Short		New Alternative Take			
+Map	Snap8_Short		Precount On/Off			
+Map	Snap9_Short		Click On/Off			
+Map	Snap10_Short		Auto-quantize			
+						
+						
+Scope	Propellerheads	Master Keyboard				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Keyboard		Keyboard			
+Map	PitchBend		Pitch Bend			
+Map	ChannelPressure		Channel Pressure			
+Map	Breath		Breath			
+Map	Expression		Expression			
+Map	ModWheel		Mod Wheel			
+Map	DamperPedal		Damper Pedal			
+						
+Scope	Propellerheads	Combinator				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 49						
+Map	Cutoff_1		Rotary 1			
+Map	Resonance_1		Rotary 2			
+Map	LFORate_1		Rotary 3			
+Map	LFOAmount_1		Rotary 4			
+						
+						
+						
+Scope	Propellerheads	Mixer 14:2				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 59						
+Map	Volume		Master Level			
+Map	Atack1_1		Channel 1 Level			
+Map	Decay1_1		Channel 2 Level			
+Map	Sustain1_1		Channel 3 Level			
+Map	Release1_1		Channel 4 Level			
+Map	Atack2_1		Channel 5 Level			
+Map	Decay2_1		Channel 6 Level			
+Map	Sustain2_1		Channel 7 Level			
+Map	Release2_1		Channel 8 Level			
+Map	Fader9_1		Channel 9 Level			
+Map	Atack1_2		Channel 10 Level			
+Map	Decay1_2		Channel 11 Level			
+Map	Sustain1_2		Channel 12 Level			
+Map	Release1_2		Channel 13 Level			
+Map	Atack2_2		Channel 14 Level			
+						
+Map	Param1_1		Channel 1 Pan			
+Map	Param2_1		Channel 2 Pan			
+Map	Param3_1		Channel 3 Pan			
+Map	Param4_1		Channel 4 Pan			
+Map	Delay_1		Channel 5 Pan			
+Map	Param1_2		Channel 6 Pan			
+Map	Param2_2		Channel 7 Pan			
+Map	Param3_2		Channel 8 Pan			
+Map	Param4_2		Channel 9 Pan			
+Map	Delay_2		Channel 10 Pan			
+						
+Map	Cutoff_1		Channel 1 Aux 1 Send			
+Map	Resonance_1		Channel 2 Aux 1 Send			
+Map	LFORate_1		Channel 3 Aux 1 Send			
+Map	LFOAmount_1		Channel 4 Aux 1 Send			
+Map	Chorus_1		Channel 5 Aux 1 Send			
+Map	Cutoff_2		Channel 6 Aux 1 Send			
+Map	Resonance_2		Channel 7 Aux 1 Send			
+Map	LFORate_2		Channel 8 Aux 1 Send			
+Map	LFOAmount_2		Channel 9 Aux 1 Send			
+Map	Chorus_2		Channel 10 Aux 1 Send			
+						
+						
+						
+						
+Scope	Propellerheads	Line Mixer 6:2				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 103						
+Map	Chorus_1		Aux Return Level			
+Map	Volume		Master Level			
+						
+Map	Atack1_1		Channel 1 Level			
+Map	Decay1_1		Channel 2 Level			
+Map	Sustain1_1		Channel 3 Level			
+Map	Release1_1		Channel 4 Level			
+Map	Atack2_1		Channel 5 Level			
+Map	Decay2_1		Channel 6 Level			
+						
+Map	Param1_1		Channel 1 Pan			
+Map	Param2_1		Channel 2 Pan			
+Map	Param3_1		Channel 3 Pan			
+Map	Param4_1		Channel 4 Pan			
+						
+Map	Cutoff_1		Channel 1 Aux Send			
+Map	Resonance_1		Channel 2 Aux Send			
+Map	LFORate_1		Channel 3 Aux Send			
+Map	LFOAmount_1		Channel 4 Aux Send			
+						
+						
+Scope	Propellerheads	ID8 Instrument Device				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 127						
+Map	Volume		Volume			
+						
+Map	Chorus_1		Parameter 1			
+Map	Delay_1		Parameter 2			
+						
+						
+Scope	Propellerheads	SubTractor Analog Synthesizer				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 136						
+Map	Volume		Master Level			
+						
+Map	Atack1_1		Filter Env Attack			
+Map	Decay1_1		Filter Env Decay			
+Map	Sustain1_1		Filter Env Sustain			
+Map	Release1_1		Filter Env Release			
+Map	Atack2_1		Amp Env Attack			
+Map	Decay2_1		Amp Env Decay			
+Map	Sustain2_1		Amp Env Sustain			
+Map	Release2_1		Amp Env Release			
+						
+Map	Cutoff_1		Filter Freq			
+Map	Resonance_1		Filter Res			
+						
+Map	Param1_1		Filter Env Amount			
+Map	Param2_1		Filter Type			
+						
+Map	Param3_1		Osc1 Wave			
+Map	Param4_1		Osc2 Wave			
+						
+Map	LFORate_1		LFO1 Rate			
+Map	LFOAmount_1		LFO1 Amount			
+						
+Map	Chorus_1		Osc1 Phase Diff			
+Map	Delay_1		Osc2 Phase Diff			
+						
+Scope	Propellerheads	Thor Polysonic Synthesizer				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// line 165						
+Map	Volume		Master Level			
+						
+Map	Cutoff_1		Filter 1 Freq			
+Map	Resonance_1		Filter 1 Res			
+Map	Param1_1		Filter 2 Freq			
+Map	Param2_1		Filter 2 Res			
+Map	Param3_1		Filter 3 Freq			
+Map	Param4_1		Filter 3 Res			
+						
+Map	Atack1_1		Filter Env Attack			
+Map	Decay1_1		Filter Env Decay			
+Map	Sustain1_1		Filter Env Sustain			
+Map	Release1_1		Filter Env Release			
+Map	Atack2_1		Amp Env Attack			
+Map	Decay2_1		Amp Env Decay			
+Map	Sustain2_1		Amp Env Sustain			
+Map	Release2_1		Amp Env Release			
+						
+						
+Map	LFORate_1		LFO 1 Rate			
+Map	LFOAmount_1		LFO 2 Rate			
+Map	Chorus_1		Chorus Dry Wet			
+Map	Delay_1		Delay dry wet			
+						
+						
+Scope	Propellerheads	Malstrom Graintable Synthesizer				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 193						
+Map	Cutoff_1		Filter A Freq			
+Map	Resonance_1		Filter A Resonance			
+Map	Param1_1		Filter B Freq			
+Map	Param2_1		Filter B Resonance			
+						
+Map	Atack1_1		Filter Env Attack			
+Map	Decay1_1		Filter Env Decay			
+Map	Sustain1_1		Filter Env Sustain			
+Map	Release1_1		Filter Env Release			
+Map	Atack2_1		Oscillator A Attack			
+Map	Decay2_1		Oscillator A Decay			
+Map	Sustain2_1		Oscillator A Sustain			
+Map	Release2_1		Oscillator A Release			
+						
+Map	Param3_1		Filter Env Amount			
+Map	Param4_1		Shaper Amount			
+						
+Map	Volume		Master Level			
+						
+Map	Chorus_1		Oscillator A Shift			
+Map	Delay_1		Oscillator B Shift			
+						
+Map	LFORate_1		Modulator A Rate			
+Map	LFOAmount_1		Modulator A To Pitch			
+						
+						
+Scope	Propellerheads	NN19 Digital Sampler				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 222						
+Map	Volume		Master Level			
+						
+Map	Cutoff_1		Filter Freq			
+Map	Resonance_1		Filter Res			
+Map	LFORate_1		LFO Rate			
+Map	LFOAmount_1		LFO Amount			
+						
+Map	Param1_1		Filter Env Amount			
+Map	Param2_1		Filter Mode			
+Map	Param3_1		LFO Wave			
+Map	Param4_1		LFO Dest			
+						
+Map	Atack1_1		Filter Env Attack			
+Map	Decay1_1		Filter Env Decay			
+Map	Sustain1_1		Filter Env Sustain			
+Map	Release1_1		Filter Env Release			
+Map	Atack2_1		Amp Env Attack			
+Map	Decay2_1		Amp Env Decay			
+Map	Sustain2_1		Amp Env Sustain			
+Map	Release2_1		Amp Env Release			
+						
+Map	Chorus_1		Stereo Spread			
+Map	Delay_1		Portamento			
+						
+						
+						
+Scope	Propellerheads	NN-XT Advanced Sampler				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 251						
+Map	Volume		Master Volume			
+						
+Map	Cutoff_1		Filter Freq			
+Map	Resonance_1		Filter Res			
+						
+Map	Atack1_1		Amp Env Attack			
+Map	Decay1_1		Amp Env Decay			
+Map	Release1_1		Amp Env Release			
+Map	Decay2_1		Mod env Decay			
+						
+						
+						
+Scope	Propellerheads	Dr.REX Loop Player				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 266						
+Map	Volume		Master Level			
+						
+Map	Cutoff_1		Filter Freq			
+Map	Resonance_1		Filter Res			
+Map	LFORate_1		LFO1 Rate			
+Map	LFOAmount_1		LFO1 Amount			
+						
+Map	Param1_1		Filter Env Amount			
+Map	Param2_1		Filter Mode			
+						
+Map	Param3_1		LFO1 Wave			
+Map	Param4_1		LFO1 Dest			
+						
+Map	Atack1_1		Filter Env Attack			
+Map	Decay1_1		Filter Env Decay			
+Map	Sustain1_1		Filter Env Sustain			
+Map	Release1_1		Filter Env Release			
+Map	Atack2_1		Amp Env Attack			
+Map	Decay2_1		Amp Env Decay			
+Map	Sustain2_1		Amp Env Sustain			
+Map	Release2_1		Amp Env Release			
+						
+						
+						
+Scope	Propellerheads	Redrum Drum Computer				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line303 						
+Map	Volume		Master Level			
+						
+Map	Atack1_1		Drum 1 Level			
+Map	Decay1_1		Drum 2 Level			
+Map	Sustain1_1		Drum 3 Level			
+Map	Release1_1		Drum 4 Level			
+Map	Atack2_1		Drum 5 Level			
+Map	Decay2_1		Drum 6 Level			
+Map	Sustain2_1		Drum 7 Level			
+Map	Release2_1		Drum 8 Level			
+						
+Map	Cutoff_1		Drum 1 Pan			
+Map	Resonance_1		Drum 2 Pan			
+Map	LFORate_1		Drum 3 Pan			
+Map	LFOAmount_1		Drum 4 Pan			
+Map	Chorus_1		Drum 5 Pan			
+Map	Param1_1		Drum 6 Pan			
+Map	Param2_1		Drum 7 Pan			
+Map	Param3_1		Drum 8 Pan			
+Map	Param4_1		Drum 9 Pan			
+Map	Delay_1		Drum 10 Pan			
+						
+						
+						
+Scope	Propellerheads	Kong Drum Designer				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 330						
+Map	Volume		Master Level			
+						
+Map	Atack1_1		Drum 1 Level			
+Map	Decay1_1		Drum 2 Level			
+Map	Sustain1_1		Drum 3 Level			
+Map	Release1_1		Drum 4 Level			
+Map	Atack2_1		Drum 5 Level			
+Map	Decay2_1		Drum 6 Level			
+Map	Sustain2_1		Drum 7 Level			
+Map	Release2_1		Drum 8 Level			
+						
+Map	Atack1_2		Drum 9 Level			
+Map	Decay1_2		Drum 10 Level			
+Map	Sustain1_2		Drum 11 Level			
+Map	Release1_2		Drum 12 Level			
+Map	Atack2_2		Drum 13 Level			
+Map	Decay2_2		Drum 14 Level			
+Map	Sustain2_2		Drum 15 Level			
+Map	Release2_2		Drum 16 Level			
+ 						
+Map	Cutoff_1		Drum 1 Pan			
+Map	Resonance_1		Drum 2 Pan			
+Map	LFORate_1		Drum 3 Pan			
+Map	LFOAmount_1		Drum 4 Pan			
+Map	Param1_1		Drum 5 Pan			
+Map	Param2_1		Drum 6 Pan			
+Map	Param3_1		Drum 7 Pan			
+Map	Param4_1		Drum 8 Pan			
+						
+Map	Cutoff_2		Drum 9 Pan			
+Map	Resonance_2		Drum 10 Pan			
+Map	LFORate_2		Drum 11 Pan			
+Map	LFOAmount_2		Drum 12 Pan			
+Map	Param1_2		Drum 13 Pan			
+Map	Param2_2		Drum 14 Pan			
+Map	Param3_2		Drum 15 Pan			
+Map	Param4_2		Drum 16 Pan			
+						
+						
+Scope	Propellerheads	RV7000 Advanced Reverb				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 372						
+Map	Volume		Dry/Wet			
+Map	Cutoff_1		Decay			
+Map	Resonance_1		HF Damp			
+Map	LFORate_1		Hi EQ			
+						
+Map	Atack1_1		Soft Knob 1			
+Map	Decay1_1		Soft Knob 2			
+Map	Sustain1_1		Soft Knob 3			
+Map	Release1_1		Soft Knob 4			
+Map	Atack2_1		Soft Knob 5			
+Map	Decay2_1		Soft Knob 6			
+Map	Sustain2_1		Soft Knob 7			
+Map	Release2_1		Soft Knob 8			
+						
+						
+						
+Scope	Propellerheads	Scream 4 Distortion				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+//  Line 391						
+Map	Volume		Master Level			
+						
+Map	Cutoff_1		Damage Control			
+Map	Resonance_1		Damage Type			
+Map	LFORate_1		Parameter 1			
+Map	LFOAmount_1		Parameter 2			
+Map	Param1_1		Body Resonance			
+Map	Param2_1		Body Scale			
+Map	Param3_1		Body Auto			
+Map	Param4_1		Body Type			
+						
+Map	Atack1_1		Cut Lo			
+Map	Decay1_1		Cut Mid			
+Map	Sustain1_1		Cut Hi			
+						
+Map	Chorus_1		Damage On/Off			
+Map	Release1_1		Cut On/Off			
+Map	Delay_1		Body On/Off			
+						
+						
+						
+Scope	Propellerheads	BV512 Digital Vocoder				
+						
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 416 						
+Map	Volume		Dry/Wet			
+						
+Map	Cutoff_1		Band Count			
+Map	Resonance_1		Attack			
+Map	LFORate_1		Decay			
+Map	Param1_1		Vocoder/Equalizer			
+Map	Param2_1		Shift			
+Map	Param3_1		HF Emphasis			
+						
+Map	Atack1_1		Band Level 1			
+Map	Decay1_1		Band Level 2			
+Map	Sustain1_1		Band Level 3			
+Map	Release1_1		Band Level 4			
+Map	Atack2_1		Band Level 5			
+Map	Decay2_1		Band Level 6			
+Map	Sustain2_1		Band Level 7			
+Map	Release2_1		Band Level 8			
+Map	Fader9_1		Band Level 9			
+						
+Map	Atack1_2		Band Level 10			
+Map	Decay1_2		Band Level 11			
+Map	Sustain1_2		Band Level 12			
+Map	Release1_2		Band Level 13			
+Map	Atack2_2		Band Level 14			
+Map	Decay2_2		Band Level 15			
+Map	Sustain2_2		Band Level 16			
+Map	Release2_2		Band Level 17			
+Map	Fader9_2		Band Level 18			
+						
+						
+						
+						
+Scope	Propellerheads	MClass Equalizer				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+//Line450 						
+Map	Cutoff_1		Low Shelf Frequency			
+Map	Atack1_1		Low Shelf Gain			
+Map	Param1_1		Low Shelf Q			
+						
+Map	Resonance_1		Parametric 1 Frequency			
+Map	Decay1_1		Parametric 1 Gain			
+Map	Param2_1		Parametric 1 Q			
+						
+Map	LFORate_1		Parametric 2 Frequency			
+Map	Sustain1_1		Parametric 2 Gain			
+Map	Param3_1		Parametric 2 Q			
+						
+Map	LFOAmount_1		Hi Shelf Frequency			
+Map	Release1_1		Hi Shelf Gain			
+Map	Param4_1		Hi Shelf Q			
+						
+						
+						
+						
+Scope	Propellerheads	MClass Stereo Imager				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// line 472						
+Map	Cutoff_1		Low Width			
+Map	Resonance_1		X-Over Frequency			
+Map	LFORate_1		High Width			
+Map	LFOAmount_1		Solo Mode			
+						
+						
+						
+Scope	Propellerheads	MClass Compressor				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// line482						
+Map	Cutoff_1		Input Gain			
+Map	Resonance_1		Threshold			
+Map	LFORate_1		Ratio			
+Map	LFOAmount_1		Attack			
+Map	Chorus_1		Release			
+Map	Volume		Output Gain			
+						
+						
+						
+Scope	Propellerheads	MClass Maximizer				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Cutoff_1		Input Gain			
+Map	Resonance_1		Attack Speed			
+Map	LFORate_1		Release Speed			
+Map	LFOAmount_1		Output Gain			
+Map	Chorus_1		Soft Clip Amount			
+						
+						
+						
+Scope	Propellerheads	RV-7 Digital Reverb				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Cutoff_1		Algorithm			
+Map	Resonance_1		Size			
+Map	LFORate_1		Decay			
+Map	LFOAmount_1		Damping			
+Map	Volume		Dry/Wet			
+						
+						
+						
+Scope	Propellerheads	DDL-1 Digital Delay Line				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Cutoff_1		DelayTime (steps)			
+Map	Resonance_1		DelayTime (ms)			
+Map	LFORate_1		Feedback			
+Map	LFOAmount_1		Pan			
+Map	Volume		Dry/Wet Balance			
+						
+						
+						
+Scope	Propellerheads	D-11 Foldback Distortion				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Cutoff_1		Amount			
+Map	Resonance_1		Foldback			
+						
+						
+						
+Scope	Propellerheads	ECF-42 Envelope Controlled Filter				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line531						
+Map	Cutoff_1		Frequency			
+Map	Resonance_1		Resonance			
+Map	LFORate_1		Env Amount			
+Map	LFOAmount_1		Velocity			
+Map	Chorus_1		Mode			
+						
+Map	Atack1_1		Attack			
+Map	Decay1_1		Decay			
+Map	Sustain1_1		Sustain			
+Map	Release1_1		Release			
+						
+						
+						
+Scope	Propellerheads	CF-101 Chorus/Flanger				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// Line 547						
+Map	Cutoff_1		Delay			
+Map	Resonance_1		Feedback			
+Map	LFORate_1		Rate			
+Map	LFOAmount_1		Modulation Amount			
+						
+						
+						
+Scope	Propellerheads	PH-90 Phaser				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Cutoff_1		Frequency			
+Map	Resonance_1		Split			
+Map	LFORate_1		Width			
+Map	LFOAmount_1		Rate			
+Map	Chorus_1		Frequency Modulation			
+Map	Param1_1		Feedback			
+						
+						
+						
+Scope	Propellerheads	UN-16 Unison				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Cutoff_1		Voice Count			
+Map	Resonance_1		Detune			
+Map	Volume		Dry/Wet			
+						
+						
+						
+Scope	Propellerheads	COMP-01 Compressor/Limiter				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Cutoff_1		Ratio			
+Map	Resonance_1		Threshold			
+Map	LFORate_1		Attack			
+Map	LFOAmount_1		Release			
+Map	Volume		Gain			
+						
+						
+						
+Scope	Propellerheads	PEQ-2 Two Band Parametric EQ				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Cutoff_1		Filter A Freq			
+Map	Resonance_1		Filter A Q			
+Map	LFORate_1		Filter A Gain			
+Map	Param1_1		Filter B Freq			
+Map	Param2_1		Filter B Q			
+Map	Param3_1		Filter B Gain			
+						
+						
+						
+Scope	Propellerheads	RPG-8 Monophonic Arpeggiator				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// line597						
+Map	Cutoff_1		Mode			
+Map	Resonance_1		Octave			
+Map	LFORate_1		Rate			
+Map	LFOAmount_1		Gate Length			
+Map	Chorus_1		Pattern Enable			
+						
+						
+						
+Scope	Propellerheads	Line 6 Bass Amp				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+Map	Param1_1		Comp Threshold			
+Map	Cutoff_1		Drive			
+Map	Resonance_1		Bass			
+Map	LFORate_1		Lo Mid			
+Map	LFOAmount_1		Hi Mid			
+Map	Chorus_1		Treble			
+Map	Volume		Volume			
+						
+						
+						
+Scope	Propellerheads	Line 6 Guitar Amp				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// line 620						
+Map	Cutoff_1		Drive			
+Map	Resonance_1		Bass			
+Map	LFORate_1		Middle			
+Map	LFOAmount_1		Treble			
+Map	Chorus_1		Presence			
+						
+Map	Expression		Wah Pedal			
+Map	Volume		Volume			
+						
+						
+						
+Scope	Propellerheads	Alligator				
+Define Group	Keyboard Shortcut Variations	filters1	filters2	filters3		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// line 635						
+Map	Volume		Master Volume			
+						
+Map	LFOAmount_1		High Pass LFO Amount			filters1
+Map	Cutoff_1		High Pass Frequency			filters1
+Map	Resonance_1		High Pass Resonance			filters1
+Map	Param1_1		High Pass Env Amount			filters1
+Map	LFORate_1		High Pass Drive Amount			filters1
+Map	Chorus_1		High Pass Phaser Amount			filters1
+Map	Delay_1		High Pass Delay Amount			filters1
+Map	Param2_1		High Pass Pan			filters1
+						
+Map	LFOAmount_1		Band Pass LFO Amount			filters2
+Map	Cutoff_1		Band Pass Frequency			filters2
+Map	Resonance_1		Band Pass Resonance			filters2
+Map	Param1_1		Band Pass Env Amount			filters2
+Map	LFORate_1		Band Pass Drive Amount			filters2
+Map	Chorus_1		Band Pass Phaser Amount			filters2
+Map	Delay_1		Band Pass Delay Amount			filters2
+Map	Param2_1		Band Pass Pan			filters2
+						
+Map	LFOAmount_1		Low Pass LFO Amount			filters3
+Map	Cutoff_1		Low Pass Frequency			filters3
+Map	Resonance_1		Low Pass Resonance			filters3
+Map	Param1_1		Low Pass Env Amount			filters3
+Map	LFORate_1		Low Pass Drive Amount			filters3
+Map	Chorus_1		Low Pass Phaser Amount			filters3
+Map	Delay_1		Low Pass Delay Amount			filters3
+Map	Param2_1		Low Pass Pan			filters3
+						
+Map	Atack1_1		Filter Env Attack			
+Map	Decay1_1		Filter Env Decay			
+Map	Release1_1		Filter Env Release			
+Map	Atack2_1		Amp Env Attack			
+Map	Decay2_1		Amp Env Decay			
+Map	Release2_1		Amp Env Release			
+						
+						
+Scope	Propellerheads	The Echo				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// line676						
+Map	Volume		Dry/Wet Balance			
+						
+Map	Atack1_1		Delay Time			
+Map	Decay1_1		Right Ch Time Offset			
+Map	Sustain1_1		Feedback			
+Map	Release1_1		Right Ch Feedback Offset			
+Map	Param1_1		Drive Amount			
+Map	Param2_1		Drive Type			
+Map	Param3_1		Envelope			
+Map	Param4_1		Wobble			
+						
+Map	Atack2_1		Ping-Pong Mode			
+Map	Decay2_1		Ping-Pong Pan			
+Map	Sustain2_1		Diffuse Spread			
+Map	Release2_1		Diffuse Amount			
+Map	Cutoff_1		Filter Frequency			
+Map	Resonance_1		Filter Resonance			
+Map	LFORate_1		LFO Rate			
+Map	LFOAmount_1		LFO Amount			
+						
+						
+						
+Scope	Propellerheads	Pulveriser				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// line 701						
+Map	Volume		Volume			
+						
+Map	Param1_1		Squash			
+Map	Param2_1		Dirt			
+						
+Map	Cutoff_1		Filter Frequency			
+Map	Resonance_1		Peak			
+Map	Delay_1		Blend			
+Map	LFOAmount_1		Tremor to Frequency			
+Map	Release2_1		Follower to Rate			
+Map	Atack2_1		Follower to Frequency			
+						
+Map	LFORate_1		Tremor Rate			
+Map	Param3_1		Tremor Waveform			
+Map	Param4_1		Tremor to Volume			
+Map	Atack1_1		Follower Threshold			
+Map	Decay1_1		Follower Attack			
+Map	Sustain1_1		Follower Release			
+						
+						
+						
+Scope	Propellerheads	Neptune Pitch Adjuster				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// 725						
+Map	Cutoff_1		Correction Speed			
+Map	Resonance_1		Preserve Expression			
+Map	LFOAmount_1		Formant Shift			
+Map	Atack1_1		Pitched Signal Level			
+Map	Decay1_1		Voice Synth Level			
+Map	LFORate_1		Vibrato rate			
+Map	ModWheel		Mod wheel			
+Map	PitchBend		pitch bend			
