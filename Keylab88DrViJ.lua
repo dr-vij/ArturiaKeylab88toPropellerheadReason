@@ -12,10 +12,10 @@ function remote_init()
 		{name="DamperPedal", 		input="value", 		min=0, max=127},
 	
 		--Extra knobs
-		{name="Volume", 		input="value", min=0, max=127},
+		{name="Volume", 		input="value", 			min=0, max=127},
 		{name="Category", 		input="delta"},
 		{name="Preset", 		input="delta"},
-		{name="SwitchPress", 	input="button"},
+		{name="PresetPress", 	input="button"},
 		{name="CategoryPress", 	input="button"},
 	
 		--Transport buttons
@@ -125,7 +125,7 @@ function remote_init()
 		{pattern="B0 07 xx", 	name="Volume"},
 		{pattern="B0 70 xx", 	name="Category", value="(64 - x) * -1"},	
 		{pattern="B0 72 xx", 	name="Preset", value="(64 - x) * -1"},
-		{pattern="B0 73 xx", 	name="SwitchPress", value="1"},
+		{pattern="B0 73 xx", 	name="PresetPress", value="1"},
 		{pattern="B0 71 xx", 	name="CategoryPress", value="1"},
 		
 		--Transport buttons
