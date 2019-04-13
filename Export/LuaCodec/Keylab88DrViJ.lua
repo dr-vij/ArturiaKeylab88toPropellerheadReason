@@ -1,3 +1,8 @@
+-- this codec was written by Dr-ViJ.
+-- feel free to contact me on propellerheadvij@gmail.com
+-- or just-dr-vij@yandex.ru
+-- I recommend to use it with my configuration for Arturia Keylab88 (all knobs are switched to relative mode)
+
 function remote_init()
 	local items=
 	{
